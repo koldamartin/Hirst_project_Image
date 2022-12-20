@@ -18,7 +18,7 @@ screen = Screen()
 colormode(255)
 turtle.setpos(0, 0)
 screen.setworldcoordinates(-50, -50, 550, 550)
-#bla bla bla
+
 ypsilon_list = []
 for y in range(50,550,50):
     ypsilon_list.append(y)
