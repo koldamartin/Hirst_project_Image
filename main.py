@@ -25,12 +25,14 @@ screen.setworldcoordinates(-50, -50, 550, 550)
 
 # ypsilon_list = [i for i in range(50, 550, 50)]
 # Nebo jeste lip takto:
-ypsilon_list = list(range(50, 550, 50))
-for j in range(10):
+# ypsilon_list = range(50, 550, 50)
+
+# vubec nejlip tohle:
+for j in range(1, 11):
     for i in range(10):
         turtle.dot(50, (random.choice(colours_list)))
         turtle.penup()
         turtle.fd(50)
-    turtle.setpos(0, ypsilon_list[j])
+    turtle.setpos(0, 50 * j)
 
 screen.exitonclick()
