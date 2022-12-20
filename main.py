@@ -23,8 +23,9 @@ screen.setworldcoordinates(-50, -50, 550, 550)
 # for y in range(50, 550, 50):
 #     ypsilon_list.append(y)
 
-ypsilon_list = [i for i in range(50, 550, 50)]
-
+# ypsilon_list = [i for i in range(50, 550, 50)]
+# Nebo jeste lip takto:
+ypsilon_list = list(range(50, 550, 50))
 for j in range(10):
     for i in range(10):
         turtle.dot(50, (random.choice(colours_list)))
